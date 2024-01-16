@@ -52,11 +52,11 @@ button_list.extend([start_button, release_button])#], load_button])
 slider_list = []
 
 nbirds_slider   = Slider(WIDTH + (SIDE_MARGIN - 150) // 2, 60, 150, 1, 200, 50, 'N_BIRDS')
-cohesion_slider = Slider(WIDTH + (SIDE_MARGIN - 150) // 2, 120, 150, -5, 100, 1, 'COHESION')
-avoidance_slider = Slider(WIDTH + (SIDE_MARGIN - 150) // 2, 180, 150, -5, 100, 1, 'AVOIDANCE')
-vel_matching_slider = Slider(WIDTH + (SIDE_MARGIN - 150) // 2, 240, 150, -5, 100, 1, 'MATCHING')
-theta_slider = Slider(WIDTH + (SIDE_MARGIN - 150) // 2, 300, 150, 0, 2.31*math.pi, math.pi / 2, 'THETA')
-col_radius_slider = Slider(WIDTH + (SIDE_MARGIN - 150) // 2, 360, 150, 0, 100, 20, 'COLISION_RADIUS')
+cohesion_slider = Slider(WIDTH + (SIDE_MARGIN - 150) // 2, 120, 150, -5, 100, 10, 'COHESION')
+avoidance_slider = Slider(WIDTH + (SIDE_MARGIN - 150) // 2, 180, 150, -5, 100, 2, 'AVOIDANCE')
+vel_matching_slider = Slider(WIDTH + (SIDE_MARGIN - 150) // 2, 240, 150, -5, 100, 8, 'MATCHING')
+theta_slider = Slider(WIDTH + (SIDE_MARGIN - 150) // 2, 300, 150, 0, 2.31*math.pi, math.pi , 'THETA')
+col_radius_slider = Slider(WIDTH + (SIDE_MARGIN - 150) // 2, 360, 150, 0, 100, 35, 'COLISION_RADIUS')
 vmin_slider = Slider(WIDTH + (SIDE_MARGIN - 150) // 2, 420, 150, 0, 5, 1, 'VMIN')
 vmax_slider = Slider(WIDTH + (SIDE_MARGIN - 150) // 2, 480, 150, 0, 5, 1, 'VMAX')
 
